@@ -26,7 +26,7 @@ public class SceneSwitcher : MonoBehaviour
 
     void Update()
     {
-        if (MidiMaster.GetKeyDown(midiNote))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (waitForVideoEnd)
             {

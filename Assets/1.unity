@@ -319,26 +319,32 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: c526a830b78ca2240b1795af27453881, type: 3}
     loop: 1
     source: {fileID: 0}
+    isPlaying: 0
   - noteNumber: 37
     clip: {fileID: 8300000, guid: 5ebcbe8fd6aea384598480a6d6428985, type: 3}
     loop: 1
     source: {fileID: 0}
+    isPlaying: 0
   - noteNumber: 38
     clip: {fileID: 8300000, guid: 78bb3e7be2925ed49a0abcf4ee5a264e, type: 3}
     loop: 1
     source: {fileID: 0}
+    isPlaying: 0
   - noteNumber: 39
     clip: {fileID: 8300000, guid: 08165d3219d6995418bc1b2f9a75cdf7, type: 3}
     loop: 1
     source: {fileID: 0}
+    isPlaying: 0
   - noteNumber: 40
     clip: {fileID: 8300000, guid: 29401157846e11a49af5c5da7d65c2aa, type: 3}
     loop: 1
     source: {fileID: 0}
+    isPlaying: 0
   - noteNumber: 41
     clip: {fileID: 8300000, guid: 5925f31baf895d5428dc05484c2a5c8c, type: 3}
     loop: 1
     source: {fileID: 0}
+    isPlaying: 0
 --- !u!4 &208208028
 Transform:
   m_ObjectHideFlags: 0
@@ -1517,6 +1523,7 @@ GameObject:
   - component: {fileID: 2009610992}
   - component: {fileID: 2009610995}
   - component: {fileID: 2009610996}
+  - component: {fileID: 2009610997}
   m_Layer: 0
   m_Name: bamboo(N)_00000
   m_TagString: Untagged
@@ -1641,6 +1648,18 @@ MonoBehaviour:
   midiCCNumber: 17
   maxSpeed: 30
   minSpeed: 0.1
+--- !u!114 &2009610997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009610991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f89e4714810ef541af0000301641b31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2108727509
 GameObject:
   m_ObjectHideFlags: 0

@@ -50,6 +50,6 @@ public class GlobalVolumeController : MonoBehaviour
         PlayerPrefs.SetFloat("MusicVolume", volume);
 
         // 调试输出音量值
-        //Debug.Log($"🎵 [Music Volume CC#{midiCCNumber}] Knob → Volume = {volume:F2}");
+        Debug.Log($"🎵 [Music Volume CC#{midiCCNumber}] Knob → Volume = {volume:F2}");
     }
 }

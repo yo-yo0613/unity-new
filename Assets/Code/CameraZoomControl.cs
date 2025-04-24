@@ -28,7 +28,7 @@ public class CameraZoomControl : MonoBehaviour
         float zoomValue = MidiMaster.GetKnob(zoomControlCC); // 获取旋钮值
 
         // 调试输出，检查是否正确接收到缩放值
-        Debug.Log("Zoom Control Value: " + zoomValue);
+        //Debug.Log("Zoom Control Value: " + zoomValue);
 
         // 基于 MIDI 旋钮的输入，计算目标缩放值（在 minZoom 和 maxZoom 之间进行插值）
         targetZoom = Mathf.Lerp(minZoom, maxZoom, zoomValue); // 在最小和最大缩放值之间进行插值
@@ -41,6 +41,6 @@ public class CameraZoomControl : MonoBehaviour
         }
 
         // 可选：输出当前相机的正交大小（用于调试）
-        Debug.Log("Camera Orthographic Size: " + mainCamera.orthographicSize);
+        //Debug.Log("Camera Orthographic Size: " + mainCamera.orthographicSize);
     }
 }
